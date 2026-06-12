@@ -1,0 +1,463 @@
+
+    
+
+.img-bannerM {
+  
+  display: block;
+  height: 90%;
+  width: 90%;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  
+
+
+}
+
+.img-banner {
+
+  display: none;
+  height: 100%;
+  width: 100%;
+}
+
+.picture {
+
+  display: block;
+  height: 85%;
+  width: 85%;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 100px;
+  margin-bottom: 50px;
+
+
+}
+
+body {
+
+  background-color: rgb(174, 218, 215);
+
+}
+
+.bodytext {
+
+  background-color: white;
+
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 70px;
+
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+
+  font-size: 45px;
+  line-height: 65px;
+
+  text-align: center;
+
+
+}
+
+.bodytextMOBILE {
+
+  background-color: white;
+
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 70px;
+
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+
+  font-size: 45px;
+  line-height: 65px;
+
+  text-align: center;
+
+
+}
+
+
+.MainHeadline {
+
+display: none;
+
+}
+
+.MainHeadlineMobile {
+
+  text-align: center;
+  margin-top: 40px;
+  font-size: 80px;
+  line-height: 90px;
+
+}
+
+
+
+.pro {
+  font-weight: bolder;
+  color: darkgreen;
+}
+
+.pro2 {
+  font-weight: bolder;
+  color: DARKRED;
+}
+
+.pro3 {
+  font-weight: bolder;
+  color: darkred;
+}
+
+
+
+.video1 {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 40px;
+  margin-bottom: 140px;
+
+  height: 90%;
+  width: 90%;
+
+  padding-top: 50px;
+
+  padding-left: 50px;
+  padding-right: 50px;
+
+  padding-bottom: 50px;
+
+
+
+  background-color: yellow;
+
+}
+
+.parent {
+
+  display: flex;
+  gap: 20p;
+  flex-direction: column;
+
+}
+
+.child {
+
+height: 90%;
+width: 90%;
+
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 40px;
+
+padding-left: 30px;
+padding-right: 30px;
+
+}
+
+h1 {
+
+  font-size: 25px;
+  line-height: 30px;
+
+}
+
+
+  /* Footer Section */
+  
+  .footer2 {
+    padding: 50px;
+    text-align: center;
+    font-size: 38px;
+    color:white;
+    background-color: black;
+    
+    }
+    
+    .footerindex {
+      padding: 50px;
+      text-align: center;
+      font-size: 38px;
+      color:black;
+      background-color: yellow;
+      
+      }
+
+      .footerpicture {
+
+        display: block;
+        height: 80%;
+        width: 80%;
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+
+
+      }
+  
+
+
+  
+    
+  /* DESKTOP VIEW BELOW */
+
+
+    @media screen and (min-width:1000px) {
+
+
+      .img-bannerM {
+  
+      display: none;    
+    
+      }
+
+      .img-banner {
+    
+        display: block;
+        height: 100%;
+        width: 100%;
+      }
+
+      h1 {
+
+        font-size: 25px;
+        line-height: 30px;
+      
+      }
+      
+
+      .picture {
+
+        display: block;
+        height: 80%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+
+        margin-top: 50px;
+        margin-bottom: 100px;
+      
+      }
+
+      .parent {
+
+          display: flex;
+          gap: 20p;
+          flex-direction: row;
+
+      }
+
+      .child {
+
+        height: 50%;
+        width: 50%;
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+
+        padding-left: 30px;
+        padding-right: 30px;
+
+      }
+
+      body {
+
+        background-color: white;
+      }
+
+      .bodytext {
+  
+        background-color: rgb(174, 218, 215);
+        color: black;
+      
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 90px;
+      
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px;
+
+        font-size: 25px;
+        line-height: 40px;
+
+        border-radius: 25px;
+      
+      
+      
+      }
+
+      .MainHeadline {
+
+        text-align: center;
+        margin-top: 40px;
+        font-size: 80px;
+        line-height: 90px;
+
+        margin-bottom: 150px;
+
+      
+      }
+
+
+      .bodytextMOBILE {
+
+        display: none;
+
+      }
+
+   
+    
+      .video1 {
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        margin-top: 40px;
+        margin-bottom: 160px;
+
+        padding-top: 50px;
+
+        padding-left: 50px;
+        padding-right: 50px;
+
+        padding-bottom: 50px;
+
+
+        height: 70%;
+        width: 70%;
+
+        BACKGROUND-COLOR: red;
+
+        border:rgb(174, 218, 215)
+        solid 4px;
+
+
+
+
+      }
+
+      .pro {
+        font-weight: bolder;
+        color: darkgreen;
+      }
+
+      .pro2 {
+        font-weight: bolder;
+        color: DARKRED;
+      }
+
+      .pro3 {
+        font-weight: bolder;
+        color: aqua;
+      }
+      
+      
+      
+  /* Footer Section */
+  
+  .footer2 {
+    padding: 50px;
+    text-align: center;
+    font-size: 38px;
+    color:white;
+    background-color: black;
+    
+    }
+    
+    .footerindex {
+      padding: 50px;
+      text-align: center;
+      font-size: 38px;
+      color:black;
+      background-color: black;
+      
+      }
+
+      .footertext {
+
+        color: white;
+
+      }
+
+      .btn2 {
+
+        color: black;
+        background-color: pink;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+
+      }
+
+      .btn2:hover {
+
+        background-color: aqua;
+        color: black;
+
+      }
+
+      .footerpicture {
+
+        display: block;
+        height: 50%;
+        width: 50%;
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+
+        border-radius: 25px;
+
+        
+
+      }
+
+  
+    
+
+
+
+    }
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
